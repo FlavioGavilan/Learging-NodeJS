@@ -1,0 +1,27 @@
+{
+  "name": "project-node-qr-image",
+  "version": "1.0.0",
+  "description": "begginer project bout the creation of qr code image",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlavioGavilan/Learging-NodeJS.git"
+  },
+  "author": "Flávio H. Gavilan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FlavioGavilan/Learging-NodeJS/issues"
+  },
+  "homepage": "https://github.com/FlavioGavilan/Learging-NodeJS#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "fs.promises": "^0.1.2",
+    "inquirer": "^9.2.12",
+    "node-fs": "^0.1.7",
+    "qr-image": "^3.2.0"
+  }
+}
